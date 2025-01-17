@@ -85,14 +85,14 @@
                 <p class="mb-3">
                   <i class="fa fa-phone"></i>
                   <strong>Phone/Text:</strong> 
-                  <a href="tel:+3392055516" style="color: #ffffff; text-decoration: none;">
+                  <a href="tel:+3392055516" class="contact-link">
                     (339) 205-5516
                   </a>
                 </p>
                 <p class="mb-3">
                   <i class="fa fa-instagram"></i>
                   <strong>Instagram:</strong> 
-                  <a href="https://www.instagram.com/petsitting.nbpt/" target="_blank" style="color: #ffffff; text-decoration: underline;">
+                  <a href="https://www.instagram.com/petsitting.nbpt/" target="_blank" class="contact-link">
                     @petsitting.nbpt
                   </a>
                 </p>
@@ -136,15 +136,35 @@
     .contact-info {
       max-width: 800px;
       margin: 0 auto;
+      color: #333;
     }
     
     .contact-details {
       font-size: 1.2rem;
       line-height: 1.8;
+      background: rgba(108, 85, 249, 0.1);
+      padding: 30px;
+      border-radius: 10px;
+      margin-top: 20px;
     }
     
-    .contact-details a:hover {
+    .contact-link {
+      color: #6c55f9;
+      text-decoration: none;
+      transition: opacity 0.3s ease;
+    }
+
+    .contact-link:hover {
       opacity: 0.8;
+      color: #5642d8;
+      text-decoration: none;
+    }
+
+    .fa {
+      margin-right: 10px;
+      width: 20px;
+      text-align: center;
+      color: #6c55f9;
     }
 
     .map-responsive {
@@ -171,12 +191,6 @@
       max-width: 1200px;
       margin: 0 auto;
       padding: 0 15px;
-    }
-
-    .fa {
-      margin-right: 10px;
-      width: 20px;
-      text-align: center;
     }
   </style>
 
