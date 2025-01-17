@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Electrochip</title>
+  <title>Newburyport Pet Sitting</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
@@ -60,7 +60,7 @@
                   <a class="nav-link" href="service.html"> Service </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Gallery.html"> Gallery </a>
+                  <a class="nav-link" href="gallery.html"> Gallery </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact </a>
@@ -74,60 +74,82 @@
     <!-- end header section -->
   </div>
 
-
-
-
-  <!-- blog section -->
-
-  <section class="blog_section layout_padding">
+  <!-- gallery section -->
+  <section class="layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
-          Blog
+          Our Furry Friends
         </h2>
-        <img src="images/s2.png" alt="">
+        <p class="text-center mb-5">
+          Meet some of the wonderful pets we've had the pleasure of caring for!
+        </p>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/blog1.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Blog Title Goes Here
-              </h5>
-              <p>
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised
-              </p>
-            </div>
+      <div class="row gallery-grid">
+        <!-- First row -->
+        <div class="col-md-4 col-6 mb-4">
+          <div class="gallery-item">
+            <img src="images/dog1.jpg" alt="Happy dog" class="img-fluid">
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/blog2.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Blog Title Goes Here
-              </h5>
-              <p>
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised
-              </p>
-            </div>
+        <div class="col-md-4 col-6 mb-4">
+          <div class="gallery-item">
+            <img src="images/dog2.jpg" alt="Happy dog" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-6 mb-4">
+          <div class="gallery-item">
+            <img src="images/dog3.jpg" alt="Happy dog" class="img-fluid">
+          </div>
+        </div>
+        <!-- Continue pattern for all 30 images -->
+        <div class="col-md-4 col-6 mb-4">
+          <div class="gallery-item">
+            <img src="images/dog4.jpg" alt="Happy dog" class="img-fluid">
+          </div>
+        </div>
+        <!-- Add more items following the same pattern until you reach 30 -->
+        <!-- Last items shown here for reference -->
+        <div class="col-md-4 col-6 mb-4">
+          <div class="gallery-item">
+            <img src="images/dog29.jpg" alt="Happy dog" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-6 mb-4">
+          <div class="gallery-item">
+            <img src="images/dog30.jpg" alt="Happy dog" class="img-fluid">
           </div>
         </div>
       </div>
     </div>
   </section>
+  <!-- end gallery section -->
 
-  <!-- end blog section -->
+  <style>
+    .gallery-item {
+      position: relative;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
 
+    .gallery-item:hover {
+      transform: translateY(-5px);
+    }
 
+    .gallery-item img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
 
-
-
+    .heading_container p {
+      font-size: 18px;
+      color: #666;
+    }
+  </style>
 
   <!-- info section -->
 
